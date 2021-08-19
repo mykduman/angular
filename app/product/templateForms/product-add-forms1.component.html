@@ -1,0 +1,27 @@
+<h3>Yeni Ürün Ekle</h3>
+<form #productAddForm="ngForm" (ngSubmit)="add(productAddForm)">
+<div class="form-group">
+<input type="text" placeholder="ürün adı" #name="ngModel" [(ngModel)]="model.name" class="form-control" name="name" id="name" required>
+<div *ngIf="name.invalid&&name.touched class" class="alert alert-danger">İSİM GİRMEYİ UNUTTUNUZ</div>
+</div>
+<div class="form-group">
+<input type="text" placeholder="ürün açıklama" #description="ngModel" [(ngModel)]="model.description" class="form-control" name="description" id="description" required>
+<div *ngIf="description.invalid&&description.dirty class" class="alert alert-danger">AÇIKLAMA GİRMEYİ UNUTTUNUZ</div>
+</div>
+<div class="form-group">
+<input type="text" placeholder="ürün resmi" #imageUrl="ngModel" [(ngModel)]="model.imageUrl" class="form-control" name="imageUrl" id="imageUrl" required>
+<div *ngIf="imageUrl.invalid&&imageUrl.dirty class" class="alert alert-danger">Resim linki GİRMEYİ UNUTTUNUZ</div>
+</div>
+<div class="form-group">
+<input type="text" placeholder="ürün fiyatı" #price="ngModel" [(ngModel)]="model.price" class="form-control" name="price" id="price" required>
+<div *ngIf="price.invalid&&price.dirty class" class="alert alert-danger">Fiyat gereklidir linki GİRMEYİ UNUTTUNUZ</div>
+</div>
+<div class="form-group">
+<select class="form-control" #categoryId="ngModel" [(ngModel)]="model.categoryId" required name="categoryId" id="categoryId">
+<option *ngFor="let category of categories" [value]="category.id">{{category.name}}</option>
+</select>
+<div *ngIf="categoryId.invalid&&categoryId.touched class" class="alert alert-danger">Kategori GİRMEYİ UNUTTUNUZ</div>
+</div>
+<button type="submit" class="btn btn-primary" [disabled]="productAddForm.invalid">Ürün Ekle</button>
+
+</form>
