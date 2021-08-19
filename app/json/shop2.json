@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 2500,
+      "categoryId": 1,
+      "description": "Asus",
+      "imageUrl": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Mouse",
+      "price": 25,
+      "categoryId": 2,
+      "description": "A4",
+      "imageUrl": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80"
+    },
+    {
+      "id": 3,
+      "name": "test",
+      "price": 1000,
+      "categoryId": 1,
+      "description": "desription",
+      "imageUrl": "https://productimages.hepsiburada.net/s/53/375/11124860026930.jpg"
+    },
+    {
+      "name": "asdasd",
+      "description": "asda",
+      "imageUrl": "asd",
+      "price": "5000",
+      "categoryId": "1",
+      "id": 4
+    },
+    {
+      "name": "asdasd",
+      "description": "asda",
+      "imageUrl": "asd",
+      "price": "5000",
+      "categoryId": "1",
+      "id": 5
+    },
+    {
+      "name": "asjkldajklsdjklas",
+      "description": "asdfasdf",
+      "imageUrl": "asdasdfasdf",
+      "price": "855641",
+      "categoryId": "1",
+      "id": 6
+    },
+    {
+      "name": "asd",
+      "description": "2323",
+      "imageUrl": "23123",
+      "price": "123124556234",
+      "categoryId": "2",
+      "id": 7
+    },
+    {
+      "name": "asd",
+      "description": "asd",
+      "imageUrl": "23",
+      "price": "123",
+      "categoryId": "1",
+      "id": 8
+    },
+    {
+      "name": "asdasd",
+      "description": "asda",
+      "imageUrl": "asd",
+      "price": "5000",
+      "categoryId": "1",
+      "id": 9
+    },
+    {
+      "id": 10,
+      "name": "PC",
+      "price": 8000,
+      "categoryId": 1,
+      "description": "Monster",
+      "imageUrl": "https://productimages.hepsiburada.net/s/98/300-443/110000040847611.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Bilgisayar"
+    },
+    {
+      "id": 2,
+      "name": "Elektronik"
+    }
+  ]
+}
